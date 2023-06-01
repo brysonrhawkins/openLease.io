@@ -31,7 +31,9 @@ function App() {
   // },[]);
 
   return (
-    <Router>
+    <div>
+      <h1>Test 2</h1>
+      <Router>
       <Routes>
         <Route path='/Home' element={<HomePage/>}/>
         <Route path='/Sign-In' element={<SignIn/>}/>
@@ -45,6 +47,8 @@ function App() {
         <Route path='/Settings' element={<UserSettings/>}/>
       </Routes>
     </Router>
+    </div>
+    
   );
 }
 
