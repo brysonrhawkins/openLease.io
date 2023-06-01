@@ -1,0 +1,152 @@
+.listing-card{
+    background-color: blue;
+}
+
+.listing-card-form{
+    position: absolute;
+    top: 10%;
+    left: 25vw;
+    height: 60vh;
+    width: 50vw;
+    background-color: rgba(209, 210, 209, 0.334);
+    border-radius: 8px;
+}
+
+.listing-card-title{
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.listing-card-title-text{
+    color: black;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input[type="button"]{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+input[type="file"]{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.listing-card-input-one{
+   text-align: center;
+}
+
+.listing-card-input-two{
+    text-align: center;
+}
+
+.listing-card-input-three{
+    text-align: center;
+}
+
+.listing-card-input-four{
+    text-align: center;
+}   
+
+.listing-card-input-five{
+    margin-top: 5vh;
+    text-align: center;
+}   
+
+.listing-card-submit-button{
+    text-align: center;
+    margin-top: 10vh;
+    height: 20px;
+}
+
+@media (max-width: 1170px) {
+    .listing-card{
+        background-color: blue;
+    }
+    
+    .listing-card-form{
+        position: absolute;
+        margin-top: 3vh;
+        left: 5vw;
+        height: 60vh;
+        width: 90vw;
+        background-color: rgba(209, 210, 209, 0.334);
+        border-radius: 8px;
+    }
+    
+    .listing-card-title{
+        text-align: center;
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"]{
+        width: 300px;
+        height: 40px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    
+    input[type="button"]{
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .listing-card-title-text{
+        color: black;
+    }
+
+    .listing-card-info-title-text{
+        font-size: medium;
+    }
+
+    .listing-card-info-subtext{
+        font-size: x-small;
+    }
+    
+    .listing-card-input-one{
+       text-align: center;
+    }
+    
+    .listing-card-input-two{
+        text-align: center;
+    }
+    
+    .listing-card-input-three{
+        text-align: center;
+    }
+    
+    .listing-card-input-four{
+        text-align: center;
+    }   
+    
+    .listing-card-input-five{
+        margin-top: 5vh;
+        text-align: center;
+    }   
+    
+    .listing-card-submit-button{
+        text-align: center;
+        margin-top: 10vh;
+        height: 20px;
+    }
+}

@@ -1,0 +1,87 @@
+.query-input-card{
+
+}
+
+.query-input-form{
+    position: absolute;
+    margin-top: 3vh;
+    left: 25vw;
+    height: 45vh;
+    width: 50vw;
+    background-color: rgba(209, 210, 209, 0.334);
+    border-radius: 8px;
+}
+
+.query-title-title{
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.query-label-location{
+    margin-left: 1vw;
+}
+
+.query-input-location{
+
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+
+input[type="number"]{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+
+input[type="button"]{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.query-result-card{
+    position: absolute;
+    margin-top: 50vh;
+    left: 25vw;
+    height: 9vh;
+    width: 50vw;
+    background-color: rgba(209, 210, 209, 0.334);
+    border-radius: 8px;
+}
+
+.query-result-title{
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.query-result-list{
+    list-style-type: none;
+}
+
+.query-result-item{
+    background-color: rgba(209, 210, 209, 0.334);
+    width: 20vw;
+    height: 25vh;
+}
+
+.query-result-item-title{
+    text-align: center;
+}
+
+.query-result-item-quick-info{
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.NavBar-toggle{
+  margin-right: 5vw;
+  }
+  
+  .NavBar-collapse{
+    text-align: right;
+    
+  }
+  
+  .NavBar-items{
+    text-align: right;
+    margin-right: 5vw;
+  }
+
+  .Dropdown-items{
+   color: teal;
+    text-align: right;
+  }
+  

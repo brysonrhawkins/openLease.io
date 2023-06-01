@@ -1,0 +1,16 @@
+.sidebar-whole{
+    background-color: #212529dd;
+    width: 15vw;
+    height: 90.5vh;
+}
+
+.sidebar-list{
+    position: inherit;
+    list-style-type: none;
+    margin-left: -3vw;
+}
+
+.btn-sidebar{
+    width: 15.5vw;
+    margin-bottom: 5px;
+}
