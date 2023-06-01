@@ -15,7 +15,7 @@ import UserSettings from './Pages/userSettings';
 // import firebase from "../src/Auth/Firebase.config.js";
 
 function App() {
-
+  console.log("Front End Router Render")
     // const userContext = React.createContext();
     // const userState = {
     //   isLoggedIn: false,
@@ -33,16 +33,16 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/Home' element={<HomePage/>}/>
-        <Route path='/Sign-In' element={<SignIn/>}/>
-        <Route path="/Account/Sign-Out" element={<SignIn/>}/>
-        <Route path='/Create-Account' element={<CreateAccount/>}/>
-        <Route path='/View-Listings' element={<FindLease/>}/>
-        <Route path='/Create-Post' element={<PostLease/>}/>
-        <Route path='/View-Image' element={<ViewImage/>}/>
-        <Route path='/Dashboard' element={<Dashboard/>}/>
-        <Route path='/Messages' element={<UserMessages/>}/>
-        <Route path='/Settings' element={<UserSettings/>}/>
+        <Route path='brysonrhawkins.github.io/Home' element={<HomePage/>}/>
+        <Route path='brysonrhawkins.github.io/Sign-In' element={<SignIn/>}/>
+        <Route path="brysonrhawkins.github.io/Account/Sign-Out" element={<SignIn/>}/>
+        <Route path='brysonrhawkins.github.io/Create-Account' element={<CreateAccount/>}/>
+        <Route path='brysonrhawkins.github.io/View-Listings' element={<FindLease/>}/>
+        <Route path='brysonrhawkins.github.io/Create-Post' element={<PostLease/>}/>
+        <Route path='brysonrhawkins.github.io/View-Image' element={<ViewImage/>}/>
+        <Route path='brysonrhawkins.github.io/Dashboard' element={<Dashboard/>}/>
+        <Route path='brysonrhawkins.github.io/Messages' element={<UserMessages/>}/>
+        <Route path='brysonrhawkins.github.io/Settings' element={<UserSettings/>}/>
       </Routes>
     </Router>
   );
